@@ -1,0 +1,20 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\xamarin\inventariobaches\inventariobaches\inventariobaches.windows\obj\debug\intermediatexaml\inventariobaches.windows.exe" HashGuid="2154e84d-4f2e-2fd5-3e1b-6a4377150665" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\inventariobaches\inventariobaches\bin\debug\inventariobaches.dll" HashGuid="8cddf439-483f-a439-cdbb-510128fff00a" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\microsoft.azure.mobile.client.3.0.3\lib\netcore45\microsoft.windowsazure.mobile.dll" HashGuid="b1dcaa97-cc41-a02d-c94f-f367893aa987" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\microsoft.azure.mobile.client.3.0.3\lib\netcore45\microsoft.windowsazure.mobile.ext.dll" HashGuid="ca4a9b71-1bae-b7c2-7659-e118514011db" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\modernhttpclient.2.4.2\lib\portable-net45+winrt45+wp8+wpa81\modernhttpclient.dll" HashGuid="06558e2e-bf09-53c9-5fa3-375082b5eae2" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\newtonsoft.json.8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\newtonsoft.json.dll" HashGuid="74af0f9d-4f96-68dd-0977-2bb867adf196" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.2.3.3.168\lib\win81\xamarin.forms.core.dll" HashGuid="8fd6d715-5b1e-67fd-feee-b3bb9cc9acd7" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.pages.2.3.0.38-pre2\lib\win81\xamarin.forms.pages.dll" HashGuid="bb3b86b8-5c9a-add2-5d63-50d9f912035b" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.2.3.3.168\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.2.3.3.168\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="fe4acc44-27ba-0e4e-a08b-26ae7dccb678" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.2.3.3.168\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="6cda1a83-1d8e-d2d4-211d-d5f3a06554ab" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.theme.base.1.0.0.43-pre1\lib\portable-win+net45+wp80+win81+wpa81+monoandroid10+monotouch10+xamarin.ios10\xamarin.forms.theme.base.dll" HashGuid="a55b467f-81af-0b4b-6abf-082cd0496811" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.theme.light.1.0.0.43-pre1\lib\portable-win+net45+wp80+win81+wpa81+monoandroid10+monotouch10+xamarin.ios10\xamarin.forms.theme.light.dll" HashGuid="5309bd78-46a4-d07d-6ba3-caad3f993aed" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.2.3.3.168\lib\win81\xamarin.forms.xaml.dll" HashGuid="5a0f8f23-7317-5e4b-74d2-2bf18c289c53" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

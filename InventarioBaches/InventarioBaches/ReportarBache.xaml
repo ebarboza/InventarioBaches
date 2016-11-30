@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InventarioBaches.ReportarBache"
+             >  
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="StartAndExpand">
+      <Label Text="Reportar daño en la vía" />
+      
+      <Label Text="Tipo de Daño" />
+      <Picker x:Name="pkTipoBache"   ></Picker>
+      
+      <Label Text="Descripción" />
+      <Entry x:Name="txtDescripcion" Placeholder="Descripción" Text="{Binding Descripcion}"  />
+      
+      <Label Text="Nombre alusivo" />
+      <Entry x:Name="txtNombre" Placeholder="Nombre alusivo" Text="{Binding Nombre}"  />
+
+      <Label Text="Provincia" />
+      <Picker x:Name="pkProvincia"  ></Picker>
+
+      <Label Text="Cantón" />
+      <Picker x:Name="pkCanton"></Picker>
+
+      <Label Text="Distrito" />
+      <Picker x:Name="pkDistrito"  ></Picker>
+
+      <Label Text="Municipalidad" />
+      <Picker x:Name="pkMunicipalidad"  ></Picker>
+      
+      <Button Text="Reportar" Command="{Binding GuardarReporteCommand}"  StyleClass="Info Small" />
+      
+      <Label x:Name="messageLabel" />
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

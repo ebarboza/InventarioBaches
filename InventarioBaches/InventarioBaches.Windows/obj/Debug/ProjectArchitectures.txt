@@ -1,0 +1,2 @@
+D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Windows\InventarioBaches.Windows.csproj;neutral
+D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches\InventarioBaches.csproj;neutral

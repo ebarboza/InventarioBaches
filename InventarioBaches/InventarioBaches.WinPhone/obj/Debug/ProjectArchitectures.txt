@@ -1,0 +1,2 @@
+D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.WinPhone\InventarioBaches.WinPhone.csproj;neutral
+D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches\InventarioBaches.csproj;neutral
