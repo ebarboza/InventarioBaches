@@ -10,11 +10,13 @@ namespace InventarioBaches.Model.Services
 {
     public partial class ClienteAzure
     {
-        private IMobileServiceClient clienteAzure;       
+        private IMobileServiceClient clienteAzure;
+        private Dictionary<string, string> parametroHeader;
 
         public ClienteAzure()
         {
             clienteAzure = new MobileServiceClient("http://reportebaches.azurewebsites.net");
+            parametroHeader = new Dictionary<string, string>() { { "ZUMO-API-VERSION", "2.0.0" } };
         }          
     }
 }

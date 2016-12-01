@@ -15,6 +15,7 @@ namespace InventarioBaches.Model.Services
         public Task<IEnumerable<Distrito>> GetDistritos()
         {
             tablaDistrito = clienteAzure.GetTable<Distrito>();
+            tablaDistrito.WithParameters(parametroHeader);
             return tablaDistrito.ToEnumerableAsync();
         }
     }

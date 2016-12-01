@@ -7,6 +7,7 @@
     <ResolvedResourceDirectory>D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Theme.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Droid\obj\Debug\__library_projects__\XLabs.Platform.Droid\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Microsoft.WindowsAzure.Mobile.Ext\library_project_imports\assets</ResolvedAssetDirectory>
@@ -14,6 +15,7 @@
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Theme.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\XLabs.Platform.Droid\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -22,5 +24,6 @@
     <ResolvedResourceDirectoryStamp>D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Theme.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Droid\obj\Debug\__library_projects__\XLabs.Platform.Droid.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

@@ -1,36 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="InventarioBaches.ReportarBache"
-             >  
-  <ContentPage.Content>
+             xmlns:control="clr-namespace:InventarioBaches.Controls;assembly=InventarioBaches"
+             xmlns:Local="clr-namespace:InventarioBaches.ViewModel;assembly=InventarioBaches"
+             x:Class="InventarioBaches.ReportarBache">
+  <ScrollView>
     <StackLayout VerticalOptions="StartAndExpand">
-      <Label Text="Reportar daño en la vía" />
+      <Label Text="Reportar daño en la vía" FontSize="30" />
       
       <Label Text="Tipo de Daño" />
-      <Picker x:Name="pkTipoBache"   ></Picker>
+      <control:BindablePicker ItemsSource="{Binding TipoBaches}" Title="Seleccionar Tipo Daño" DisplayProperty="Descripcion" SelectedItem="{Binding TipoBacheSeleccionado}"/>
       
       <Label Text="Descripción" />
       <Entry x:Name="txtDescripcion" Placeholder="Descripción" Text="{Binding Descripcion}"  />
       
       <Label Text="Nombre alusivo" />
-      <Entry x:Name="txtNombre" Placeholder="Nombre alusivo" Text="{Binding Nombre}"  />
+      <Entry x:Name="txtNombre" Placeholder="Nombre alusivo" Text="{Binding Nombre}"/>
 
-      <Label Text="Provincia" />
-      <Picker x:Name="pkProvincia"  ></Picker>
+      <Label Text="Provincia"  />
+      <control:BindablePicker ItemsSource="{Binding Provincias}" Title="Seleccionar Provincia" DisplayProperty="Nombre" SelectedItem="{Binding ProvinciaSeleccionada}"/>
 
-      <Label Text="Cantón" />
-      <Picker x:Name="pkCanton"></Picker>
+      <Label Text="Cantón" />      
+      <control:BindablePicker ItemsSource="{Binding Cantones}" Title="Seleccionar Canton" DisplayProperty="Nombre" SelectedItem="{Binding CantonSeleccionado}"/>
 
       <Label Text="Distrito" />
-      <Picker x:Name="pkDistrito"  ></Picker>
+      <control:BindablePicker ItemsSource="{Binding Distritos}" Title="Seleccionar Distrito" DisplayProperty="Nombre" SelectedItem="{Binding DistritoSeleccionado}"/>
 
       <Label Text="Municipalidad" />
-      <Picker x:Name="pkMunicipalidad"  ></Picker>
+      <control:BindablePicker ItemsSource="{Binding Municipalidades}" Title="Seleccionar Municipalidad" DisplayProperty="Nombre" SelectedItem="{Binding MunicipalidadSeleccionada}"/>
       
-      <Button Text="Reportar" Command="{Binding GuardarReporteCommand}"  StyleClass="Info Small" />
+      <Button Text="Reportar" Command="{Binding GuardarReporteCommand}" IsEnabled="{Binding IsSaving}"  />
       
-      <Label x:Name="messageLabel" />
+      <Label Text="{Binding MensajeError}" FontSize="15" />
     </StackLayout>
-  </ContentPage.Content>
+  </ScrollView>
 </ContentPage>

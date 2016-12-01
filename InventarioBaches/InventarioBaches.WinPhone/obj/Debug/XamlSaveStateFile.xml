@@ -1,7 +1,8 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="d:\xamarin\inventariobaches\inventariobaches\inventariobaches.winphone\obj\debug\intermediatexaml\inventariobaches.winphone.exe" HashGuid="1e0600de-efc4-a4d0-3c59-bb13b841514d" />
-    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\inventariobaches\inventariobaches\bin\debug\inventariobaches.dll" HashGuid="8cddf439-483f-a439-cdbb-510128fff00a" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\exiflib.pcl.1.0.1\lib\portable-net45+sl50+win+windowsphoneapp81+wp80+xamarin.ios10+monoandroid10+monotouch10\exiflib.dll" HashGuid="de49909c-8ad4-7edb-2af2-aa6416b0b8d1" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\inventariobaches\inventariobaches\bin\debug\inventariobaches.dll" HashGuid="d3769a97-1a28-d14a-a4cd-9c5d4a38bb2c" />
     <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\microsoft.azure.mobile.client.3.0.3\lib\wpa81\microsoft.windowsazure.mobile.dll" HashGuid="b1dcaa97-cc41-a02d-c94f-f367893aa987" />
     <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\microsoft.azure.mobile.client.3.0.3\lib\wpa81\microsoft.windowsazure.mobile.ext.dll" HashGuid="37cc6169-576b-f3de-1e6a-600572f7c503" />
     <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\modernhttpclient.2.4.2\lib\portable-net45+winrt45+wp8+wpa81\modernhttpclient.dll" HashGuid="06558e2e-bf09-53c9-5fa3-375082b5eae2" />
@@ -16,5 +17,11 @@
     <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.theme.base.1.0.0.43-pre1\lib\portable-win+net45+wp80+win81+wpa81+monoandroid10+monotouch10+xamarin.ios10\xamarin.forms.theme.base.dll" HashGuid="a55b467f-81af-0b4b-6abf-082cd0496811" />
     <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.theme.light.1.0.0.43-pre1\lib\portable-win+net45+wp80+win81+wpa81+monoandroid10+monotouch10+xamarin.ios10\xamarin.forms.theme.light.dll" HashGuid="5309bd78-46a4-d07d-6ba3-caad3f993aed" />
     <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xamarin.forms.2.3.3.168\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="5a0f8f23-7317-5e4b-74d2-2bf18c289c53" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xlabs.core.2.0.5782\lib\portable-net45+netcore45+wpa81+wp8+monoandroid1+monotouch1\xlabs.core.dll" HashGuid="dd2be7ad-5823-6bbf-cae2-9fa0e076e938" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xlabs.ioc.2.0.5782\lib\portable-net45+netcore45+wpa81+wp8+monoandroid1+monotouch1+xamarin.ios10\xlabs.ioc.dll" HashGuid="c916376e-88b7-3093-d5d7-dce0d590dc9a" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xlabs.platform.2.0.5782\lib\wpa81\xlabs.platform.dll" HashGuid="e7ee276b-c69b-ee84-8426-02b8dfae9573" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xlabs.platform.2.0.5782\lib\wpa81\xlabs.platform.winrt.winmd" HashGuid="9913feb9-f787-7e53-b087-72ce11abeb50" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xlabs.platform.2.0.5782\lib\wpa81\xlabs.platform.wp8.dll" HashGuid="f5ae1204-9d65-82d8-6eba-5eb7a3e235da" />
+    <ReferenceAssembly PathName="d:\xamarin\inventariobaches\packages\xlabs.serialization.2.0.5782\lib\portable-net45+netcore45+wpa81+wp8+monoandroid1+monotouch1\xlabs.serialization.dll" HashGuid="ae5ad85b-c6d5-c960-1e81-8053201fe910" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

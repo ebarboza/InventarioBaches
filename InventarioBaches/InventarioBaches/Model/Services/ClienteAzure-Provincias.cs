@@ -15,6 +15,7 @@ namespace InventarioBaches.Model.Services
         public Task<IEnumerable<Provincia>> GeProvincias()
         {
             tablaProvincia = clienteAzure.GetTable<Provincia>();
+            tablaProvincia.WithParameters(parametroHeader);
             return tablaProvincia.ToEnumerableAsync();
         }
     }

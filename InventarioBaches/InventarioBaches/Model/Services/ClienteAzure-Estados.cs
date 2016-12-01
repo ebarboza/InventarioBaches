@@ -15,6 +15,7 @@ namespace InventarioBaches.Model.Services
         public Task<IEnumerable<Estado>> GetEstados()
         {
             tablaEstado = clienteAzure.GetTable<Estado>();
+            tablaEstado.WithParameters(parametroHeader);
             return tablaEstado.ToEnumerableAsync();
         }
     }

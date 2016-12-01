@@ -17,40 +17,16 @@ namespace InventarioBaches {
     public partial class ReportarBache : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Picker pkTipoBache;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry txtDescripcion;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry txtNombre;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Picker pkProvincia;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Picker pkCanton;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Picker pkDistrito;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Picker pkMunicipalidad;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label messageLabel;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ReportarBache));
-            pkTipoBache = this.FindByName<global::Xamarin.Forms.Picker>("pkTipoBache");
             txtDescripcion = this.FindByName<global::Xamarin.Forms.Entry>("txtDescripcion");
             txtNombre = this.FindByName<global::Xamarin.Forms.Entry>("txtNombre");
-            pkProvincia = this.FindByName<global::Xamarin.Forms.Picker>("pkProvincia");
-            pkCanton = this.FindByName<global::Xamarin.Forms.Picker>("pkCanton");
-            pkDistrito = this.FindByName<global::Xamarin.Forms.Picker>("pkDistrito");
-            pkMunicipalidad = this.FindByName<global::Xamarin.Forms.Picker>("pkMunicipalidad");
-            messageLabel = this.FindByName<global::Xamarin.Forms.Label>("messageLabel");
         }
     }
 }

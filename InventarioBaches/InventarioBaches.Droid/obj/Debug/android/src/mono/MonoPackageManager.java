@@ -99,6 +99,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "InventarioBaches.Droid.dll" comes first in this list. */
 		"InventarioBaches.Droid.dll",
+		"ExifLib.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.WindowsAzure.Mobile.dll",
 		"Microsoft.WindowsAzure.Mobile.Ext.dll",
@@ -123,7 +124,13 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Theme.Base.dll",
 		"Xamarin.Forms.Theme.Light.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"XLabs.Core.dll",
+		"XLabs.Ioc.dll",
+		"XLabs.Platform.dll",
+		"XLabs.Platform.Droid.dll",
+		"XLabs.Serialization.dll",
 		"InventarioBaches.dll",
+		"Mono.Android.Export.dll",
 		"System.Runtime.dll",
 		"System.Resources.ResourceManager.dll",
 		"System.Threading.Tasks.dll",
@@ -150,6 +157,7 @@ class MonoPackageManager_Resources {
 		"System.Text.Encoding.Extensions.dll",
 		"System.Runtime.InteropServices.dll",
 		"System.ComponentModel.dll",
+		"System.Runtime.Serialization.Xml.dll",
 		"System.Collections.Concurrent.dll",
 	};
 	public static final String[] Dependencies = new String[]{

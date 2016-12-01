@@ -15,6 +15,7 @@ namespace InventarioBaches.Model.Services
         public Task<IEnumerable<TipoBache>> GetTipoBaches()
         {
             tablaTipoBache = clienteAzure.GetTable<TipoBache>();
+            tablaTipoBache.WithParameters(parametroHeader);
             return tablaTipoBache.ToEnumerableAsync();
         }
 

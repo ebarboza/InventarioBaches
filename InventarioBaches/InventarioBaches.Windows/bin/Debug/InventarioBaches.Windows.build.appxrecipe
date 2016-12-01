@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Windows\bin\Debug\InventarioBaches.Windows.exe">
       <PackagePath>InventarioBaches.Windows.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\packages\ExifLib.PCL.1.0.1\lib\portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10\ExifLib.dll">
+      <PackagePath>ExifLib.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches\bin\Debug\InventarioBaches.dll">
       <PackagePath>InventarioBaches.dll</PackagePath>
     </AppxPackagedFile>
@@ -69,6 +72,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\packages\Xamarin.Forms.2.3.3.168\lib\win81\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\packages\XLabs.Core.2.0.5782\lib\portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1\XLabs.Core.dll">
+      <PackagePath>XLabs.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\packages\XLabs.IoC.2.0.5782\lib\portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1\XLabs.Ioc.dll">
+      <PackagePath>XLabs.Ioc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\packages\XLabs.Platform.2.0.5782\lib\portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1\XLabs.Platform.dll">
+      <PackagePath>XLabs.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\packages\XLabs.Serialization.2.0.5782\lib\portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1\XLabs.Serialization.dll">
+      <PackagePath>XLabs.Serialization.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\XAMARIN\InventarioBaches\InventarioBaches\InventarioBaches.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>

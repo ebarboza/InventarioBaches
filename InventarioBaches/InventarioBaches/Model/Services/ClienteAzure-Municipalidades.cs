@@ -15,6 +15,7 @@ namespace InventarioBaches.Model.Services
         public Task<IEnumerable<Municipalidad>> GetMunicipalidades()
         {
             tablaMunicipalidad = clienteAzure.GetTable<Municipalidad>();
+            tablaMunicipalidad.WithParameters(parametroHeader);
             return tablaMunicipalidad.ToEnumerableAsync();
         }
     }

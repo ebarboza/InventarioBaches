@@ -15,6 +15,7 @@ namespace InventarioBaches.Model.Services
         public Task<IEnumerable<Canton>> GetCantones()
         {
             tablaCanton = clienteAzure.GetTable<Canton>();
+            tablaCanton.WithParameters(parametroHeader);
             return tablaCanton.ToEnumerableAsync();
         }
 

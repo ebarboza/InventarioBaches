@@ -10,12 +10,20 @@ namespace InventarioBaches.Model.Services
 {
     public partial class ClienteAzure
     {
-        private IMobileServiceTable<Bache> tablaBache;
+        private IMobileServiceTable<Bache> tablaBache;        
 
         public Task<IEnumerable<Bache>> GetBaches()
         {
             tablaBache = clienteAzure.GetTable<Bache>();
-            return tablaBache.ToEnumerableAsync();
+            tablaBache.WithParameters(parametroHeader);
+            return  tablaBache.ToEnumerableAsync();
+        }
+
+        public void AddBaches(Bache bache)
+        {
+            tablaBache = clienteAzure.GetTable<Bache>();
+            tablaBache.WithParameters(parametroHeader);
+            tablaBache.InsertAsync(bache);
         }
     }
 }

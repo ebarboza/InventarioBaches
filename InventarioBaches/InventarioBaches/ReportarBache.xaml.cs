@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InventarioBaches.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,14 @@ namespace InventarioBaches
 {
     public partial class ReportarBache : ContentPage
     {
+        
+
         public ReportarBache()
         {
             InitializeComponent();
-        }
+            this.BindingContext = new RegistroBachesViewModel();
+            
+        }        
+
     }
 }

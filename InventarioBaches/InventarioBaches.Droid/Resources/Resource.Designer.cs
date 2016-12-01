@@ -28,6 +28,8 @@ namespace InventarioBaches.Droid
 		{
 			global::ModernHttpClient.Resource.String.library_name = global::InventarioBaches.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::InventarioBaches.Droid.Resource.Attribute.actionBarSize;
+			global::XLabs.Platform.Resource.String.ApplicationName = global::InventarioBaches.Droid.Resource.String.ApplicationName;
+			global::XLabs.Platform.Resource.String.Hello = global::InventarioBaches.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Animation
